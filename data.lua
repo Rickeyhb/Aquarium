@@ -5,12 +5,12 @@ do
 
 	local output = table.deepcopy(data.raw["pipe-to-ground"]["pipe-to-ground"])
 	output.name = "fish-output"
-	output.icon = "__folk-aquarium__/output.png"
+	output.icon = "Aquarium/output.png"
 
 	local outputItem = table.deepcopy(data.raw.item["pipe-to-ground"])
 	outputItem.name = "fish-output"
 	outputItem.place_result = "fish-output"
-	outputItem.icon = "__folk-aquarium__/output.png"
+	outputItem.icon = "Aquarium/output.png"
 	outputItem.stack_size = 1
 
 	local outputRecipe = table.deepcopy(data.raw.recipe["pipe-to-ground"])
