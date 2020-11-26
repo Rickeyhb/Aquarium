@@ -1,12 +1,11 @@
 {
 	"name": "Aquarium",
-	"version": "0.1.8",
+	"version": "0.1.9",
 	"title": "Aquarium",
 	"description": "Allows you to put fish in water and breed them. Revolutionary technology.",
 	"author": "Rickeyhb",
 	"contact": "",
 	"homepage": "",
 	"factorio_version": "1.00",
-	"dependencies": ["base"],
-	"license": "CC-BY-NC 4.0"
+	"dependencies": ["base >= 0.15"]
 }
